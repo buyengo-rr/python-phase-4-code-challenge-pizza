@@ -93,5 +93,5 @@ def seed_data():
         print(f"✅ Seeded {len(restaurant_pizzas)} restaurant-pizza relationships")
         print("🌱 Database seeded successfully!")
 
-if _name_ == '_main_':
+if __name__== '__main__':
     seed_data()
